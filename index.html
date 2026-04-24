@@ -1,19 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <link rel="stylesheet" href="./style.css">
-  <title>Frontend Mentor | Pod request access landing page</title>
-</head>
-<body>
-  Publish your podcasts everywhere.
-
-  Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
-  Apple Podcasts, Google Podcasts, Pocket Casts and more!
-
-  Request access
-  <script src="./script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | Pod request access landing page</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="./assets/desktop/logo.svg" alt="logo" />
+      <h1 class="container__title">
+        Publish your podcasts <span>everywhere.</span>
+      </h1>
+      <p class="container__text">
+        Upload your audio to Pod with a single click. We’ll then distribute your
+        podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and
+        more!
+      </p>
+      <div class="container__partners">
+        <img src="./assets/desktop/spotify.svg" alt="spotify brand logo" />
+        <img src="./assets/desktop/apple-podcast.svg" alt="apple brand logo" />
+        <img
+          src="./assets/desktop/google-podcasts.svg"
+          alt="google brand logo"
+        />
+        <img src="./assets/desktop/pocket-casts.svg" alt="pocket brand logo" />
+      </div>
+      <form action="https://www.randomserver.com" method="post">
+        <input type="email" name="email" id="email">
+        <button type="submit">Request Access</button>
+      </form>
+    </div>
+    <script src="./script.js"></script>
+  </body>
 </html>
