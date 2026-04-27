@@ -2,4 +2,17 @@ body {
     background-image: url('./assets/mobile/image-host.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 135px;
+    height: 56px;
+    margin: 110px auto 0 auto;
 }
