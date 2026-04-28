@@ -1,18 +1,43 @@
 body {
-    background-image: url('./assets/mobile/image-host.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    box-sizing: border-box;
+  background-image: url("./assets/mobile/image-host.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
+.access {
+  display: flex;
+  flex-direction: column;
 }
 
-.logo {
-    width: 135px;
-    height: 56px;
-    margin: 110px auto 0 auto;
+.access__logo {
+  width: 135px;
+  height: 56px;
+  margin: 110px auto 0 auto;
+}
+
+.access__title {
+  margin: 56px 36px 16px 36px;
+  font-family: "Chivo", sans-serif;
+  font-weight: 100;
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #54e6af;
+}
+
+.access__title > span {
+  color: #fff;
+}
+
+.access__text {
+  margin: 0 36px 40px 36px;
+  font-family: "Chivo", sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #c2cbe5;
 }
