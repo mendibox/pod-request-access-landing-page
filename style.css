@@ -3,11 +3,21 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
+  margin: 0;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
 }
 
 .access {
   display: flex;
   flex-direction: column;
+  position: relative;
+  z-index: 1;
 }
 
 .access__logo {
@@ -40,4 +50,8 @@ body {
   letter-spacing: 0%;
   text-align: center;
   color: #c2cbe5;
+}
+
+.access__partners {
+  margin: 0 36px 40px 36px;
 }
