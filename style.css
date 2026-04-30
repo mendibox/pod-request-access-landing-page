@@ -54,4 +54,43 @@ body {
 
 .access__partners {
   margin: 0 36px 40px 36px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.access__mail {
+  box-sizing: border-box;
+  width: 303px;
+  height: 44px;
+  margin: 0 36px 8px 36px;
+  border: none;
+  padding: 0;
+  padding-left: 32px;
+  border-radius: 9px;
+  background-color: #2c344b;
+  font-family: "Chivo", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 200%;
+  letter-spacing: 0%;
+}
+
+.access__mail::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.access__submit {
+  box-sizing: border-box;
+  width: 303px;
+  height: 44px;
+  margin: 0 36px;
+  border: none;
+  border-radius: 9px;
+  background-color: #54e6af;
+  font-family: "Chivo", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 200%;
+  letter-spacing: 0%;
+  color: #121725;
 }
