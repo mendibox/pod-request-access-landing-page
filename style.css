@@ -66,8 +66,9 @@ body {
   border: none;
   padding: 0;
   padding-left: 32px;
-  border-radius: 9px;
+  border-radius: 28px;
   background-color: #2c344b;
+  color: #fff;
   font-family: "Chivo", sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -79,13 +80,17 @@ body {
   color: rgba(255, 255, 255, 0.5);
 }
 
+.access__mail:focus {
+  outline: none;
+}
+
 .access__submit {
   box-sizing: border-box;
   width: 303px;
   height: 44px;
   margin: 0 36px;
   border: none;
-  border-radius: 9px;
+  border-radius: 28px;
   background-color: #54e6af;
   font-family: "Chivo", sans-serif;
   font-weight: 600;
