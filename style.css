@@ -99,3 +99,7 @@ body {
   letter-spacing: 0%;
   color: #121725;
 }
+
+.access__submit:hover {
+  background-color: color-mix(in srgb, #fff 50%, #54e6af 100%);
+}
