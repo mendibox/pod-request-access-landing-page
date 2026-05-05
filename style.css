@@ -64,6 +64,7 @@ body {
   height: 44px;
   margin: 0 36px 8px 36px;
   border: none;
+  outline: none;
   padding: 0;
   padding-left: 32px;
   border-radius: 28px;
@@ -84,11 +85,15 @@ body {
   outline: none;
 }
 
+.access__mail:invalid {
+  outline: 2px solid #fb3e3e;
+}
+
 .access__submit {
   box-sizing: border-box;
   width: 303px;
   height: 44px;
-  margin: 0 36px;
+  margin: 0 36px 8px 36px;
   border: none;
   border-radius: 28px;
   background-color: #54e6af;
@@ -102,4 +107,20 @@ body {
 
 .access__submit:hover {
   background-color: color-mix(in srgb, #fff 50%, #54e6af 100%);
+}
+
+.access__error-message {
+  display: none;
+  color: #fb3e3e;
+  font-family: "Chivo", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.access__error-message.visible {
+  display: block;
+  margin: 20px 50px;
 }

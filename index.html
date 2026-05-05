@@ -39,9 +39,10 @@
         />
         <img src="./assets/desktop/pocket.svg" alt="pocket brand logo" />
       </div>
-      <form action="https://www.randomserver.com" method="post">
-        <input type="email" name="email" id="email" class="access__mail" placeholder="Email address" required/>
+      <form action="https://www.randomserver.com" method="post" novalidate>
+        <input type="email" name="email" id="email" class="access__mail" placeholder="Email address" required />
         <button type="submit" class="access__submit">Request Access</button>
+        <p id="error-message" class="access__error-message"></p>
       </form>
     </div>
     <script src="./script.js"></script>
